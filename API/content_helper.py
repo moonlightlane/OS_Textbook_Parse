@@ -2,6 +2,9 @@ import ast
 import pattern.en
 import spacy
 import itertools
+import pandas as pd
+import json
+import string
 
 '''
 ########################################################################################################################
@@ -165,12 +168,12 @@ def merge_by_chapter(df):
 
     chapters = df['chapter'].unique()
     for c in chapters:
-        b = df['book'].unique()
-        c_t = df['chapter_title'].unique()
+        b = df[df['chapter']==c]['book'].unique()[0]
+        c_t = df[df['chapter']==c]['chapter_title'].unique()[0]
         modules = df[df['chapter'] == c]['module'].unique()
         for m in modules:
-            m_t = df['module_title'].unique()
-            m_id = df['module_id'].unique()
+            m_t = df[df['chapter'] == c][df['module'] == m]['module_title'].unique()[0]
+            m_id = df[df['chapter'] == c][df['module'] == m]['module_id'].unique()[0]
             subset = df.loc[(df['chapter']==c) & (df['module']==m)]
             # merge content and lowercase it
             p_c = ' '.join(subset['p_content'])
@@ -198,6 +201,27 @@ def merge_by_chapter(df):
     return df_copy
 
 
+def unique_terms(df):
+    '''
+    find unique terms in the content
+    :param df: original dataframe content
+    :return: a string of lists of lists of unique terms
+    '''
+    return df['terms'].unique()
+
+
+def original_terms(path_to_original_df):
+    workspace_path = '/home/jack/Documents/openstaxTextbook/data/biology/'  # VARIABLE
+    # read the content file
+    f = workspace_path + 'content.csv'
+    df = pd.read_csv(f)
+    terms = []
+    for row in df.index:
+        terms += ast.literal_eval(df['terms'][row])
+        terms = terms.unique().lower()
+    return terms
+
+
 def merge_terms(df):
     '''
     function to merge all terms
@@ -210,10 +234,104 @@ def merge_terms(df):
     terms = list(set(map(tuple, terms)))
     return terms
 
-def search_sentences(df, term):
+
+def coref_resolution(df, path_to_json):
+    """
+    function to resolve coreference
+    NOTE: only replace NON-POCESSIVE PRONOUNS
+    :param df: a string of content (NOTE: this df has the be chapter merged df)
+    :param path_to_json: path to all json files
+    :return: a string of content with coreference resolved
+    """
+    for row in df.index:
+        # info for retrieving the relevant json file
+        c = df['chapter'][row]
+        m = df['module'][row]
+        p_c = df['p_content'][row]
+        # init config and setup for coref resolution later
+        # original_len = len(p_c)
+        # current_len = original_len
+        # last_idx_start = 0
+        # diff = 0
+        idx_start_all = []
+        diff_all = [] # the above two arrays should be the same length
+        # import JSON file
+        f = path_to_json + 'content_ch_' + str(c) + '_mo_' + str(m) + '.txt.json'
+        with open(f) as data_file:
+            data = json.load(data_file)
+        # access coref
+        corefs = data['corefs']
+        sents  = data['sentences']
+        # loop through all occurrences of coreferences
+        for key in corefs.keys():
+            # loop through each mention of each occurrence of coreferences
+            for item in corefs[key]:
+                # get info from each dict in the coref mention
+                id_, text_, type_, number_, gender_, animacy_, \
+                startIndex_, endIndex_, headIndex_, sentNum_, \
+                position_, isRep_ = coref_mention_get_info(item)
+                # get referred text
+                if isRep_:
+                    referred_text = text_
+                # else replace other mentions with referred text
+                else:
+                    # only replace when the word to be replaced is a pronoun
+                    if type_ == 'PRONOMINAL':
+                        replace_text = text_
+                        sent = sents[sentNum_-1]
+                        # only replace non-poccessive pronouns
+                        # if the replace_text has more than one word, only check this condition for the last word
+                        if not sent['tokens'][endIndex_-2]['pos'] == 'PRP$':
+                            idx_start = sent['tokens'][startIndex_-1]['characterOffsetBegin']
+                            idx_end = sent['tokens'][endIndex_-2]['characterOffsetEnd']
+                            if len(idx_start_all) == 0:
+                                p_c = p_c[:idx_start] + referred_text + p_c[idx_end:]
+                                diff = 0
+                            else:
+                                preceeding_start_idxs = [i for i in range(len(idx_start_all)) if \
+                                                        idx_start > idx_start_all[i]]
+                                diff = sum([diff_all[i] for i in preceeding_start_idxs])
+                                p_c = p_c[:idx_start + diff] + referred_text + p_c[idx_end + diff:]
+                            current_diff = -len(replace_text) + len(referred_text)
+                            idx_start_all.append(idx_start + diff)
+                            diff_all.append(current_diff)
+
+                        # if idx_start > last_idx_start:
+                        #     p_c = p_c[:idx_start+diff] + referred_text + p_c[idx_end+diff:]
+                        #     last_idx_start = idx_start + diff
+                        # else:
+                        #     p_c = p_c[:idx_start] + referred_text + p_c[idx_end:]
+                        #     last_idx_start = idx_start
+                        # current_len += -len(replace_text) + len(referred_text)
+                        # diff = current_len - original_len
+        # change p_content to the coreference resolved version
+        df['p_content'][row] = p_c
+    return df
+
+
+def coref_mention_get_info(mention):
+    id_ = mention['id']
+    text_ = mention['text']
+    type_ = mention['type']
+    number_ = mention['number']
+    gender_ = mention['gender']
+    animacy_ = mention['animacy']
+    startIndex_ = mention['startIndex']
+    endIndex_ = mention['endIndex']
+    headIndex_ = mention['headIndex']
+    sentNum_ = mention['sentNum']
+    position_ = mention['position']
+    isRep_ = mention['isRepresentativeMention']
+    return id_, text_, type_, number_, gender_, animacy_, \
+           startIndex_, endIndex_, headIndex_, sentNum_, position_, isRep_
+
+
+def search_sentences(content, term):
     '''
     function to search for all sentences that involve the term
     :param df:
-    :param term:
+    :param term: this is an array of all possible forms of this term
     :return: an array of sentences (strings)
     '''
+
+
