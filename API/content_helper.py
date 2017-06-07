@@ -5,6 +5,7 @@ import itertools
 import pandas as pd
 import json
 import string
+import re
 
 '''
 ########################################################################################################################
@@ -255,10 +256,8 @@ def coref_resolution(df, path_to_json):
         # diff = 0
         idx_start_all = []
         diff_all = [] # the above two arrays should be the same length
-        # import JSON file
-        f = path_to_json + 'content_ch_' + str(c) + '_mo_' + str(m) + '.txt.json'
-        with open(f) as data_file:
-            data = json.load(data_file)
+        # import json
+        data = import_json(path_to_json, c, m)
         # access coref
         corefs = data['corefs']
         sents  = data['sentences']
@@ -309,6 +308,14 @@ def coref_resolution(df, path_to_json):
     return df
 
 
+def import_json(path_to_json, c, m):
+    # import JSON file
+    f = path_to_json + 'content_ch_' + str(c) + '_mo_' + str(m) + '.txt.json'
+    with open(f) as data_file:
+        data = json.load(data_file)
+    return data
+
+
 def coref_mention_get_info(mention):
     id_ = mention['id']
     text_ = mention['text']
@@ -326,12 +333,105 @@ def coref_mention_get_info(mention):
            startIndex_, endIndex_, headIndex_, sentNum_, position_, isRep_
 
 
-def search_sentences(content, term):
+def search_sentences(content, term, json_data):
     '''
     function to search for all sentences that involve the term
     :param df:
     :param term: this is an array of all possible forms of this term
     :return: an array of sentences (strings)
     '''
+    term_sents = []
+    # search in each sentence in the content
+    sents = json_data['sentences']
+    for sent in sents:
+        # get start and end character index
+        sent_begin_idx = sent['tokens'][0]['characterOffsetBegin']
+        sent_end_idx   = sent['tokens'][-1]['characterOffsetEnd']
+        sent_text = content[sent_begin_idx:sent_end_idx]
+        # search for the term
+        for t in term:
+            search_result = re.findall('\\b'+t+'\\b', sent_text, flags=re.IGNORECASE)
+            if len(search_result) > 0:
+                sent_dict = {'index': sent['index'],
+                             'text' : sent_text}
+                term_sents.append(sent_dict)
+    # search in corefs
+    corefs = json_data['corefs']
+    for key in corefs.keys():
+        ADD = False
+        for item in corefs[key]:
+            # get info from each dict in the coref mention
+            id_, text_, type_, number_, gender_, animacy_, \
+            startIndex_, endIndex_, headIndex_, sentNum_, \
+            position_, isRep_ = coref_mention_get_info(item)
+            # do a string match of the representative mention and the term
+            if isRep_:
+                for t in term:
+                    if t == text_:
+                        ADD = True
+            if not isRep_:
+                sent = sents[sentNum_ - 1]
+                sent_begin_idx = sent['tokens'][0]['characterOffsetBegin']
+                sent_end_idx = sent['tokens'][-1]['characterOffsetEnd']
+                sent_text = content[sent_begin_idx:sent_end_idx]
+                sent_dict = {'index': sent['index'],
+                             'text': sent_text}
+                if ADD:
+                    if len(term_sents) == 0:
+                        term_sents.append(sent_dict)
+                    else:
+                        for existing_sent in term_sents:
+                            if existing_sent['index'] == sentNum_-1:
+                                ADD = False
+                        if ADD:
+                            term_sents.append(sent_dict)
+    return term_sents
+
+
+# TODO: add function to check whether the single word is surrounded by other noun phrases
+# TODO: more robust search function in corefs that resolves pronoun, article words
+#       for example, "the results" in coref should match with "results"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
