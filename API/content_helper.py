@@ -267,8 +267,13 @@ def coref_resolution(df, path_to_json):
                 # get referred text
                 if isRep_:
                     referred_text = text_
-                # else replace other mentions with referred text
-                else:
+            # else replace other mentions with referred text
+            for item in corefs[key]:
+                # get info from each dict in the coref mention
+                id_, text_, type_, number_, gender_, animacy_, \
+                startIndex_, endIndex_, headIndex_, sentNum_, \
+                position_, isRep_ = coref_mention_get_info(item)
+                if not isRep_:
                     # only replace when the word to be replaced is a pronoun
                     if type_ == 'PRONOMINAL':
                         replace_text = text_
@@ -337,7 +342,7 @@ def search_sentences(content, term, json_data, embedded_terms):
              corresponding to each term
     '''
     # the input term and each entry in embedded terms should all be tuples
-    if type(term) != type(ast.literal_eval(embedded_terms[embedded_terms.keys()[0]][0])):
+    if type(term) != type(embedded_terms[embedded_terms.keys()[0]][0]):
         print('input term and embedded terms type does not match')
         return 0
     else:
@@ -357,7 +362,7 @@ def search_sentences(content, term, json_data, embedded_terms):
             sent_begin_idx = sent['tokens'][0]['characterOffsetBegin']
             sent_end_idx   = sent['tokens'][-1]['characterOffsetEnd']
             sent_text = content[sent_begin_idx:sent_end_idx]
-            sent_dict = {'index': sent['index'], 'text': sent_text}
+            sent_dict = {'index': sent['index'], 'explicit': True, 'text': sent_text}
             # if the term is embedded in another term, want to search for the term that embeds
             # the query term. If the sentence does not contain the embedded term, then
             # append the sentence to dict
@@ -366,8 +371,13 @@ def search_sentences(content, term, json_data, embedded_terms):
                     for e in e_t:
                         search_result = re.findall('\\b' + e + '\\b', sent_text, flags=re.IGNORECASE)
                         # change the append flag only if the embedded term does not appear in sent
-                        if search_result > 0:
-                            APPEND = False
+                        if len(search_result) > 0:
+                            # check if the sentence that contains the embedded term also contains
+                            # the query term
+                            for t in term:
+                                search_result1 = re.findall('\\b'+t+'\\b', sent_text, flags=re.IGNORECASE)
+                                if len(search_result1) >= len(search_result):
+                                    APPEND = False
                         # else, attach
             # search for the query term in the sentence text
             if APPEND:
@@ -392,29 +402,33 @@ def search_sentences(content, term, json_data, embedded_terms):
                             for e in e_t:
                                 search_result = re.findall('\\b' + e + '\\b', text_, flags=re.IGNORECASE)
                                 # change the append flag only if the embedded term does not appear in sent
-                                if search_result > 0:
+                                if len(search_result) > 0:
                                     APPEND = False
-                    if APPEND:
-                        for t in term:
-                            search_result = re.findall('\\b' + t + '\\b', text_, flags=re.IGNORECASE)
-                            if search_result > 0:
-                                ADD = True
+            for item in corefs[key]:
+                # get info from each dict in the coref mention
+                id_, text_, type_, number_, gender_, animacy_, \
+                startIndex_, endIndex_, headIndex_, sentNum_, \
+                position_, isRep_ = coref_mention_get_info(item)
                 if not isRep_:
                     sent = sents[sentNum_ - 1]
                     sent_begin_idx = sent['tokens'][0]['characterOffsetBegin']
                     sent_end_idx = sent['tokens'][-1]['characterOffsetEnd']
                     sent_text = content[sent_begin_idx:sent_end_idx]
                     sent_dict = {'index': sent['index'],
+                                 'explicit': False,
                                  'text': sent_text}
-                    if ADD:
-                        if len(term_sents) == 0:
-                            term_sents.append(sent_dict)
-                        else:
-                            for existing_sent in term_sents:
-                                if existing_sent['index'] == sentNum_-1:
-                                    ADD = False
-                            if ADD:
+                    if APPEND:
+                        search_result = re.findall('\\b' + e + '\\b', text_, flags=re.IGNORECASE)
+                        if len(search_result) > 0:
+                            if len(term_sents) == 0:
                                 term_sents.append(sent_dict)
+                            else:
+                                NEW = True
+                                for existing_sent in term_sents:
+                                    if existing_sent['index'] == sentNum_-1:
+                                        NEW = False
+                                if NEW:
+                                    term_sents.append(sent_dict)
         return term_sents
 
 
