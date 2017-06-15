@@ -1,0 +1,2985 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NN food))\n    (VP (VBZ provides)\n      (NP (DT the) (NN body))\n      (PP (IN with)\n        (NP\n          (NP (DT the) (NNS nutrients))\n          (SBAR\n            (S\n              (NP (PRP it))\n              (VP (VBZ needs)\n                (S\n                  (VP (TO to)\n                    (VP (VB survive))))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "provides"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 1,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "body",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 4,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 7,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 8,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 9,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "survive",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 11,
+          "dependentGloss": "survive"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "provides"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 1,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "body",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 4,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 7,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 8,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nsubj:xsubj",
+          "governor": 11,
+          "governorGloss": "survive",
+          "dependent": 8,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 9,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "survive",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 11,
+          "dependentGloss": "survive"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "provides"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 1,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "body",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 4,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 5,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 7,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 8,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nsubj:xsubj",
+          "governor": 11,
+          "governorGloss": "survive",
+          "dependent": 8,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "nutrients",
+          "dependent": 9,
+          "dependentGloss": "needs"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "survive",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "needs",
+          "dependent": 11,
+          "dependentGloss": "survive"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "provides",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "food",
+          "originalText": "food",
+          "lemma": "food",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "provides",
+          "originalText": "provides",
+          "lemma": "provide",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 13,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 17,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "body",
+          "originalText": "body",
+          "lemma": "body",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "nutrients",
+          "originalText": "nutrients",
+          "lemma": "nutrient",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 41,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 44,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "needs",
+          "originalText": "needs",
+          "lemma": "need",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 50,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 53,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "survive",
+          "originalText": "survive",
+          "lemma": "survive",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 61,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (JJ many))\n      (PP (IN of)\n        (NP (DT these) (JJ critical) (NNS nutrients))))\n    (VP (VBP are)\n      (NP\n        (NP\n          (NP (JJ biological) (NNS macromolecules))\n          (, ,)\n          (CC or)\n          (NP (JJ large) (NNS molecules))\n          (, ,))\n        (ADJP (JJ necessary)\n          (PP (IN for)\n            (NP (NN life))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 1,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 4,
+          "dependentGloss": "critical"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "many",
+          "dependent": 5,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 7,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 10,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 12,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 14,
+          "dependentGloss": "necessary"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "life",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "necessary",
+          "dependent": 16,
+          "dependentGloss": "life"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 1,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 4,
+          "dependentGloss": "critical"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "many",
+          "dependent": 5,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 7,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 10,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 12,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 14,
+          "dependentGloss": "necessary"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "life",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "necessary",
+          "dependent": 16,
+          "dependentGloss": "life"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "det:qmod",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 1,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "mwe",
+          "governor": 1,
+          "governorGloss": "many",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "nutrients",
+          "dependent": 4,
+          "dependentGloss": "critical"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 5,
+          "dependentGloss": "nutrients"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 7,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 10,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 12,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 14,
+          "dependentGloss": "necessary"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "life",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "necessary",
+          "dependent": 16,
+          "dependentGloss": "life"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "macromolecules",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 76,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "critical",
+          "originalText": "critical",
+          "lemma": "critical",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 85,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "nutrients",
+          "originalText": "nutrients",
+          "lemma": "nutrient",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "biological",
+          "originalText": "biological",
+          "lemma": "biological",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 110,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "macromolecules",
+          "originalText": "macromolecules",
+          "lemma": "macromolecule",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 125,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 126,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 129,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 135,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "molecules",
+          "originalText": "molecules",
+          "lemma": "molecule",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 145,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 146,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "necessary",
+          "originalText": "necessary",
+          "lemma": "necessary",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 156,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "life",
+          "originalText": "life",
+          "lemma": "life",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 165,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 166,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT these) (NNS macromolecules))\n      (PRN (-LRB- -LRB-)\n        (NP (NNS polymers))\n        (-RRB- -RRB-)))\n    (VP (VBP are)\n      (VP (VBN built)\n        (PP (IN from)\n          (NP\n            (NP (JJ different) (NNS combinations))\n            (PP (IN of)\n              (NP\n                (NP (JJR smaller) (JJ organic) (NNS molecules))\n                (PRN (-LRB- -LRB-)\n                  (NP (NNS monomers))\n                  (-RRB- -RRB-))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "built"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 1,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 2,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 3,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "polymers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 5,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 9,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 10,
+          "dependentGloss": "combinations"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 12,
+          "dependentGloss": "smaller"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 13,
+          "dependentGloss": "organic"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 14,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 15,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 16,
+          "dependentGloss": "monomers"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 17,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "built"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 1,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 2,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 3,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "polymers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 5,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 9,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 10,
+          "dependentGloss": "combinations"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 12,
+          "dependentGloss": "smaller"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 13,
+          "dependentGloss": "organic"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 14,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 15,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 16,
+          "dependentGloss": "monomers"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 17,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "built"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 1,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 2,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 3,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "polymers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "polymers",
+          "dependent": 5,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 9,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 10,
+          "dependentGloss": "combinations"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 12,
+          "dependentGloss": "smaller"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 13,
+          "dependentGloss": "organic"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "combinations",
+          "dependent": 14,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 15,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "molecules",
+          "dependent": 16,
+          "dependentGloss": "monomers"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "monomers",
+          "dependent": 17,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "built",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 172,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "macromolecules",
+          "originalText": "macromolecules",
+          "lemma": "macromolecule",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 187,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 189,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "polymers",
+          "originalText": "polymers",
+          "lemma": "polymer",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 197,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 198,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 202,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "built",
+          "originalText": "built",
+          "lemma": "build",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 208,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 213,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "different",
+          "originalText": "different",
+          "lemma": "different",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 223,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "combinations",
+          "originalText": "combinations",
+          "lemma": "combination",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 236,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 239,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "smaller",
+          "originalText": "smaller",
+          "lemma": "smaller",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 247,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "organic",
+          "originalText": "organic",
+          "lemma": "organic",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 255,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "molecules",
+          "originalText": "molecules",
+          "lemma": "molecule",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 265,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 266,
+          "characterOffsetEnd": 267,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "monomers",
+          "originalText": "monomers",
+          "lemma": "monomer",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 275,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 276,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 276,
+          "characterOffsetEnd": 277,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WDT what)\n      (NP\n        (NP (JJ specific) (NNS types))\n        (PP (IN of)\n          (NP (JJ biological) (NNS macromolecules)))))\n    (SQ\n      (VP (VBP do)\n        (S\n          (VP (VBG living)\n            (S\n              (NP (NNS things))\n              (VP (VB require)))))))\n    (. ?)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 2,
+          "dependentGloss": "specific"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "types"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 5,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 6,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 8,
+          "dependentGloss": "living"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "require",
+          "dependent": 9,
+          "dependentGloss": "things"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "living",
+          "dependent": 10,
+          "dependentGloss": "require"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 2,
+          "dependentGloss": "specific"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "types"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 5,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 6,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 8,
+          "dependentGloss": "living"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "require",
+          "dependent": 9,
+          "dependentGloss": "things"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "living",
+          "dependent": 10,
+          "dependentGloss": "require"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 2,
+          "dependentGloss": "specific"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 3,
+          "dependentGloss": "types"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "macromolecules",
+          "dependent": 5,
+          "dependentGloss": "biological"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "types",
+          "dependent": 6,
+          "dependentGloss": "macromolecules"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 8,
+          "dependentGloss": "living"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "require",
+          "dependent": 9,
+          "dependentGloss": "things"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 8,
+          "governorGloss": "living",
+          "dependent": 10,
+          "dependentGloss": "require"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "do",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 278,
+          "characterOffsetEnd": 282,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "specific",
+          "originalText": "specific",
+          "lemma": "specific",
+          "characterOffsetBegin": 283,
+          "characterOffsetEnd": 291,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "types",
+          "originalText": "types",
+          "lemma": "type",
+          "characterOffsetBegin": 292,
+          "characterOffsetEnd": 297,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 298,
+          "characterOffsetEnd": 300,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "biological",
+          "originalText": "biological",
+          "lemma": "biological",
+          "characterOffsetBegin": 301,
+          "characterOffsetEnd": 311,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "macromolecules",
+          "originalText": "macromolecules",
+          "lemma": "macromolecule",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 326,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 327,
+          "characterOffsetEnd": 329,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "living",
+          "originalText": "living",
+          "lemma": "live",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 336,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "things",
+          "originalText": "things",
+          "lemma": "thing",
+          "characterOffsetBegin": 337,
+          "characterOffsetEnd": 343,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "require",
+          "originalText": "require",
+          "lemma": "require",
+          "characterOffsetBegin": 344,
+          "characterOffsetEnd": 351,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 351,
+          "characterOffsetEnd": 352,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADVP (WRB how))\n    (SQ (VBP are)\n      (NP (DT these) (NNS molecules))\n      (VP (VBN formed)))\n    (. ?)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "formed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 1,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "molecules",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 4,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "formed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 1,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "molecules",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 4,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "formed"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 1,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "molecules",
+          "dependent": 3,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 4,
+          "dependentGloss": "molecules"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "formed",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 353,
+          "characterOffsetEnd": 356,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 357,
+          "characterOffsetEnd": 360,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 361,
+          "characterOffsetEnd": 366,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "molecules",
+          "originalText": "molecules",
+          "lemma": "molecule",
+          "characterOffsetBegin": 367,
+          "characterOffsetEnd": 376,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "formed",
+          "originalText": "formed",
+          "lemma": "form",
+          "characterOffsetBegin": 377,
+          "characterOffsetEnd": 383,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 383,
+          "characterOffsetEnd": 384,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WDT what) (NNS functions))\n    (SQ (VBP do)\n      (NP (PRP they))\n      (VP (VB serve)))\n    (. ?)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 3,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 4,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 3,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 4,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "serve"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 2,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 3,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 4,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "serve",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 385,
+          "characterOffsetEnd": 389,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "functions",
+          "originalText": "functions",
+          "lemma": "function",
+          "characterOffsetBegin": 390,
+          "characterOffsetEnd": 399,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 400,
+          "characterOffsetEnd": 402,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 403,
+          "characterOffsetEnd": 407,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "serve",
+          "originalText": "serve",
+          "lemma": "serve",
+          "characterOffsetBegin": 408,
+          "characterOffsetEnd": 413,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 413,
+          "characterOffsetEnd": 414,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "parse": "(ROOT\n  (S\n    (PP (IN in)\n      (NP (DT this) (NN chapter)))\n    (, ,)\n    (NP (DT these) (NNS questions))\n    (VP (MD will)\n      (VP (VB be)\n        (VP (VBN explored))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explored"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 1,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 3,
+          "dependentGloss": "chapter"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "questions",
+          "dependent": 5,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 6,
+          "dependentGloss": "questions"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 8,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explored"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 1,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 3,
+          "dependentGloss": "chapter"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "questions",
+          "dependent": 5,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 6,
+          "dependentGloss": "questions"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 8,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explored"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 1,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chapter",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 3,
+          "dependentGloss": "chapter"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "questions",
+          "dependent": 5,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 6,
+          "dependentGloss": "questions"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 8,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explored",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 415,
+          "characterOffsetEnd": 417,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 418,
+          "characterOffsetEnd": 422,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "chapter",
+          "originalText": "chapter",
+          "lemma": "chapter",
+          "characterOffsetBegin": 423,
+          "characterOffsetEnd": 430,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 430,
+          "characterOffsetEnd": 431,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 432,
+          "characterOffsetEnd": 437,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "questions",
+          "originalText": "questions",
+          "lemma": "question",
+          "characterOffsetBegin": 438,
+          "characterOffsetEnd": 447,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 448,
+          "characterOffsetEnd": 452,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 453,
+          "characterOffsetEnd": 455,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "explored",
+          "originalText": "explored",
+          "lemma": "explore",
+          "characterOffsetBegin": 456,
+          "characterOffsetEnd": 464,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 464,
+          "characterOffsetEnd": 465,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "17": [
+      {
+        "id": 11,
+        "text": "smaller organic molecules -LRB- monomers -RRB-",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 18,
+        "headIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "these molecules",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "headIndex": 4,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 17,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "headIndex": 4,
+        "sentNum": 6,
+        "position": [
+          6,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 0,
+        "text": "the body",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "headIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 2,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "headIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 1,
+        "text": "the nutrients it needs to survive",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 12,
+        "headIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 4,
+        "text": "these critical nutrients",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "headIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 6,
+        "text": "biological macromolecules",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "headIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "these macromolecules -LRB- polymers -RRB-",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "headIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

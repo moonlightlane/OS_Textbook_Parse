@@ -1,0 +1,2396 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (DT the) (NN gene))\n      (VP (VBZ is)\n        (NP\n          (NP (DT the) (JJ physical) (NN unit))\n          (PP (IN of)\n            (NP (NN inheritance))))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (NNS genes))\n      (VP (VBP are)\n        (VP (VBN arranged)\n          (PP (IN in)\n            (NP\n              (NP (DT a) (JJ linear) (NN order))\n              (PP (IN on)\n                (NP (NNS chromosomes))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "gene",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 2,
+          "dependentGloss": "gene"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "physical"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inheritance",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 11,
+          "dependentGloss": "genes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 12,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 13,
+          "dependentGloss": "arranged"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "linear"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 17,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "chromosomes",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 19,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "gene",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 2,
+          "dependentGloss": "gene"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "physical"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inheritance",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 11,
+          "dependentGloss": "genes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 12,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 13,
+          "dependentGloss": "arranged"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "linear"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 17,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "chromosomes",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 19,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "gene",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 2,
+          "dependentGloss": "gene"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "physical"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "inheritance",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 11,
+          "dependentGloss": "genes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 12,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 13,
+          "dependentGloss": "arranged"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "linear"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 13,
+          "governorGloss": "arranged",
+          "dependent": 17,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "chromosomes",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "order",
+          "dependent": 19,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "gene",
+          "originalText": "gene",
+          "lemma": "gene",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 15,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "physical",
+          "originalText": "physical",
+          "lemma": "physical",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 24,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 29,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 32,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "inheritance",
+          "originalText": "inheritance",
+          "lemma": "inheritance",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 44,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "genes",
+          "originalText": "genes",
+          "lemma": "gene",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 55,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 59,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "arranged",
+          "originalText": "arranged",
+          "lemma": "arrange",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 68,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 71,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 73,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "linear",
+          "originalText": "linear",
+          "lemma": "linear",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 80,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 86,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "chromosomes",
+          "originalText": "chromosomes",
+          "lemma": "chromosome",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 101,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 102,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT the) (NNS behaviors)\n        (CC and)\n        (NNS interactions))\n      (PP (IN of)\n        (NP\n          (NP (NNS chromosomes))\n          (PP (IN during)\n            (NP (NN meiosis))))))\n    (VP (VBP explain) (, ,)\n      (PP (IN at)\n        (NP\n          (NP (DT a) (JJ cellular) (NN level))\n          (, ,)\n          (NP\n            (NP (DT the) (NNS patterns))\n            (PP (IN of)\n              (NP (NN inheritance))))))\n      (SBAR (IN that)\n        (S\n          (NP (PRP we))\n          (VP (VBP observe)\n            (PP (IN in)\n              (NP (NNS populations)))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explain"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 2,
+          "dependentGloss": "behaviors"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 4,
+          "dependentGloss": "interactions"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 6,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "meiosis",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 8,
+          "dependentGloss": "meiosis"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 13,
+          "dependentGloss": "cellular"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 14,
+          "dependentGloss": "level"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 17,
+          "dependentGloss": "patterns"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "inheritance",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 19,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 20,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 21,
+          "dependentGloss": "we"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 22,
+          "dependentGloss": "observe"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "populations",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 24,
+          "dependentGloss": "populations"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explain"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 2,
+          "dependentGloss": "behaviors"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 4,
+          "dependentGloss": "interactions"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 4,
+          "dependentGloss": "interactions"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 6,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "meiosis",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 8,
+          "dependentGloss": "meiosis"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 13,
+          "dependentGloss": "cellular"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 14,
+          "dependentGloss": "level"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 17,
+          "dependentGloss": "patterns"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "inheritance",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 19,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 20,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 21,
+          "dependentGloss": "we"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 22,
+          "dependentGloss": "observe"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "populations",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 24,
+          "dependentGloss": "populations"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "explain"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 2,
+          "dependentGloss": "behaviors"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 4,
+          "dependentGloss": "interactions"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 4,
+          "dependentGloss": "interactions"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "behaviors",
+          "dependent": 6,
+          "dependentGloss": "chromosomes"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "meiosis",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 6,
+          "governorGloss": "chromosomes",
+          "dependent": 8,
+          "dependentGloss": "meiosis"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 13,
+          "dependentGloss": "cellular"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 14,
+          "dependentGloss": "level"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "appos",
+          "governor": 14,
+          "governorGloss": "level",
+          "dependent": 17,
+          "dependentGloss": "patterns"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "inheritance",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "patterns",
+          "dependent": 19,
+          "dependentGloss": "inheritance"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 20,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 21,
+          "dependentGloss": "we"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 22,
+          "dependentGloss": "observe"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "populations",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "observe",
+          "dependent": 24,
+          "dependentGloss": "populations"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "explain",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "behaviors",
+          "originalText": "behaviors",
+          "lemma": "behavior",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 116,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "interactions",
+          "originalText": "interactions",
+          "lemma": "interaction",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 133,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 136,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "chromosomes",
+          "originalText": "chromosomes",
+          "lemma": "chromosome",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 148,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "during",
+          "originalText": "during",
+          "lemma": "during",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 155,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "meiosis",
+          "originalText": "meiosis",
+          "lemma": "meiosis",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 163,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "explain",
+          "originalText": "explain",
+          "lemma": "explain",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 171,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 172,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 175,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 177,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "cellular",
+          "originalText": "cellular",
+          "lemma": "cellular",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 186,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "level",
+          "originalText": "level",
+          "lemma": "level",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 192,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 193,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 197,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "patterns",
+          "originalText": "patterns",
+          "lemma": "pattern",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 206,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 209,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "inheritance",
+          "originalText": "inheritance",
+          "lemma": "inheritance",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 221,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 226,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "we",
+          "originalText": "we",
+          "lemma": "we",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 229,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "observe",
+          "originalText": "observe",
+          "lemma": "observe",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 237,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 240,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "populations",
+          "originalText": "populations",
+          "lemma": "population",
+          "characterOffsetBegin": 241,
+          "characterOffsetEnd": 252,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 25,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 253,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (JJ genetic) (NNS disorders))\n      (PP (VBG involving)\n        (NP\n          (NP (NNS alterations))\n          (PP (IN in)\n            (NP (NN chromosome) (NN number)\n              (CC or)\n              (NN structure))))))\n    (VP\n      (VP (MD may)\n        (VP (VB have)\n          (NP (JJ dramatic) (NNS effects))))\n      (CC and)\n      (VP (MD can)\n        (VP (VB prevent)\n          (NP (DT a) (VBN fertilized) (NN egg))\n          (PP (IN from)\n            (S\n              (VP (VBG developing)\n                (ADVP (RB altogether))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 1,
+          "dependentGloss": "genetic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "disorders"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 3,
+          "dependentGloss": "involving"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 4,
+          "dependentGloss": "alterations"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "chromosome"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 7,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 9,
+          "dependentGloss": "structure"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "may"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "effects",
+          "dependent": 12,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "effects"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 15,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "prevent"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 18,
+          "dependentGloss": "fertilized"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 19,
+          "dependentGloss": "egg"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 20,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "advcl",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 21,
+          "dependentGloss": "developing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 22,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 1,
+          "dependentGloss": "genetic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "disorders"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 2,
+          "dependentGloss": "disorders"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 3,
+          "dependentGloss": "involving"
+        },
+        {
+          "dep": "nmod:involving",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 4,
+          "dependentGloss": "alterations"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "chromosome"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 7,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 9,
+          "dependentGloss": "structure"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 9,
+          "dependentGloss": "structure"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "may"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "effects",
+          "dependent": 12,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "effects"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 15,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "prevent"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 18,
+          "dependentGloss": "fertilized"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 19,
+          "dependentGloss": "egg"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 20,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "advcl:from",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 21,
+          "dependentGloss": "developing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 22,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 1,
+          "dependentGloss": "genetic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 2,
+          "dependentGloss": "disorders"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 2,
+          "dependentGloss": "disorders"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 3,
+          "dependentGloss": "involving"
+        },
+        {
+          "dep": "nmod:involving",
+          "governor": 2,
+          "governorGloss": "disorders",
+          "dependent": 4,
+          "dependentGloss": "alterations"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "chromosome"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 7,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "alterations",
+          "dependent": 9,
+          "dependentGloss": "structure"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 7,
+          "governorGloss": "number",
+          "dependent": 9,
+          "dependentGloss": "structure"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "may"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "effects",
+          "dependent": 12,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "effects"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 15,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "prevent"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "egg",
+          "dependent": 18,
+          "dependentGloss": "fertilized"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 19,
+          "dependentGloss": "egg"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 20,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "advcl:from",
+          "governor": 16,
+          "governorGloss": "prevent",
+          "dependent": 21,
+          "dependentGloss": "developing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "developing",
+          "dependent": 22,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "have",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "genetic",
+          "originalText": "genetic",
+          "lemma": "genetic",
+          "characterOffsetBegin": 254,
+          "characterOffsetEnd": 261,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "disorders",
+          "originalText": "disorders",
+          "lemma": "disorder",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 271,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "involving",
+          "originalText": "involving",
+          "lemma": "involve",
+          "characterOffsetBegin": 272,
+          "characterOffsetEnd": 281,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "alterations",
+          "originalText": "alterations",
+          "lemma": "alteration",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 293,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 294,
+          "characterOffsetEnd": 296,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "chromosome",
+          "originalText": "chromosome",
+          "lemma": "chromosome",
+          "characterOffsetBegin": 297,
+          "characterOffsetEnd": 307,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 308,
+          "characterOffsetEnd": 314,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 315,
+          "characterOffsetEnd": 317,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "structure",
+          "originalText": "structure",
+          "lemma": "structure",
+          "characterOffsetBegin": 318,
+          "characterOffsetEnd": 327,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "may",
+          "originalText": "may",
+          "lemma": "may",
+          "characterOffsetBegin": 328,
+          "characterOffsetEnd": 331,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 332,
+          "characterOffsetEnd": 336,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "dramatic",
+          "originalText": "dramatic",
+          "lemma": "dramatic",
+          "characterOffsetBegin": 337,
+          "characterOffsetEnd": 345,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "effects",
+          "originalText": "effects",
+          "lemma": "effect",
+          "characterOffsetBegin": 346,
+          "characterOffsetEnd": 353,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 354,
+          "characterOffsetEnd": 357,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 358,
+          "characterOffsetEnd": 361,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "prevent",
+          "originalText": "prevent",
+          "lemma": "prevent",
+          "characterOffsetBegin": 362,
+          "characterOffsetEnd": 369,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 370,
+          "characterOffsetEnd": 371,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "fertilized",
+          "originalText": "fertilized",
+          "lemma": "fertilize",
+          "characterOffsetBegin": 372,
+          "characterOffsetEnd": 382,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "egg",
+          "originalText": "egg",
+          "lemma": "egg",
+          "characterOffsetBegin": 383,
+          "characterOffsetEnd": 386,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 387,
+          "characterOffsetEnd": 391,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "developing",
+          "originalText": "developing",
+          "lemma": "develop",
+          "characterOffsetBegin": 392,
+          "characterOffsetEnd": 402,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "altogether",
+          "originalText": "altogether",
+          "lemma": "altogether",
+          "characterOffsetBegin": 403,
+          "characterOffsetEnd": 413,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 413,
+          "characterOffsetEnd": 414,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+  }
+}

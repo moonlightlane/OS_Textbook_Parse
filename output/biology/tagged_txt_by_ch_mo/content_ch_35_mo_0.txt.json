@@ -1,0 +1,3670 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (SBAR\n      (WHADVP (WRB when))\n      (FRAG\n        (NP-TMP\n          (NP (NN youre) (NN reading))\n          (NP (DT this) (NN book)))))\n    (, ,)\n    (NP (PRP$ your) (JJ nervous) (NN system))\n    (VP (VBZ is)\n      (VP (VBG performing)\n        (NP (JJ several) (NNS functions))\n        (ADVP (RB simultaneously))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "performing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 2,
+          "dependentGloss": "youre"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 3,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "book",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 7,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 8,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 9,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 13,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 14,
+          "dependentGloss": "simultaneously"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "performing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 2,
+          "dependentGloss": "youre"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 3,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "book",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 7,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 8,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 9,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 13,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 14,
+          "dependentGloss": "simultaneously"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "performing"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 2,
+          "dependentGloss": "youre"
+        },
+        {
+          "dep": "advcl",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 3,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "book",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 7,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "system",
+          "dependent": 8,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 9,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 13,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 14,
+          "dependentGloss": "simultaneously"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "performing",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "when",
+          "originalText": "when",
+          "lemma": "when",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "youre",
+          "originalText": "youre",
+          "lemma": "youre",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "reading",
+          "originalText": "reading",
+          "lemma": "reading",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 23,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 28,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 29,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "your",
+          "originalText": "your",
+          "lemma": "you",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "nervous",
+          "originalText": "nervous",
+          "lemma": "nervous",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 42,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 49,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 52,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "performing",
+          "originalText": "performing",
+          "lemma": "perform",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 63,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "several",
+          "originalText": "several",
+          "lemma": "several",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 71,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "functions",
+          "originalText": "functions",
+          "lemma": "function",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 81,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "simultaneously",
+          "originalText": "simultaneously",
+          "lemma": "simultaneously",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 96,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 97,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (DT the) (JJ visual) (NN system))\n      (VP (VBZ is)\n        (VP (VBG processing)\n          (SBAR\n            (WHNP (WP what))\n            (S\n              (VP (VBZ is)\n                (VP (VBN seen)\n                  (PP (IN on)\n                    (NP (DT the) (NN page))))))))))\n    (: ;)\n    (S\n      (NP (DT the) (NN motor) (NN system))\n      (VP (VBZ controls)\n        (NP\n          (NP (DT the) (NN turn))\n          (PP (IN of)\n            (NP (DT the) (NNS pages)))))\n      (PRN (-LRB- -LRB-)\n        (CC or)\n        (S\n          (VP (VB click)\n            (PP (IN of)\n              (NP (DT the) (NN mouse)))))\n        (-RRB- -RRB-)))\n    (: ;)\n    (S\n      (NP (DT the) (JJ prefrontal) (NN cortex))\n      (VP (VBZ maintains)\n        (NP (NN attention))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "processing"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "visual"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 6,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 8,
+          "dependentGloss": "seen"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 11,
+          "dependentGloss": "page"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 12,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 14,
+          "dependentGloss": "motor"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 15,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 16,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 18,
+          "dependentGloss": "turn"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 21,
+          "dependentGloss": "pages"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 22,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "cc",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 23,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 24,
+          "dependentGloss": "click"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 27,
+          "dependentGloss": "mouse"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 28,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 29,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 30,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 31,
+          "dependentGloss": "prefrontal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 32,
+          "dependentGloss": "cortex"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 33,
+          "dependentGloss": "maintains"
+        },
+        {
+          "dep": "dobj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 34,
+          "dependentGloss": "attention"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 35,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "processing"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "visual"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 6,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 8,
+          "dependentGloss": "seen"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 11,
+          "dependentGloss": "page"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 12,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 14,
+          "dependentGloss": "motor"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 15,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 16,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 18,
+          "dependentGloss": "turn"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 21,
+          "dependentGloss": "pages"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 22,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "cc",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 23,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 24,
+          "dependentGloss": "click"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 27,
+          "dependentGloss": "mouse"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 28,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 29,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 30,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 31,
+          "dependentGloss": "prefrontal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 32,
+          "dependentGloss": "cortex"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 33,
+          "dependentGloss": "maintains"
+        },
+        {
+          "dep": "dobj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 34,
+          "dependentGloss": "attention"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 35,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "processing"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "visual"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 6,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 8,
+          "dependentGloss": "seen"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "page",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "seen",
+          "dependent": 11,
+          "dependentGloss": "page"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 12,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "system",
+          "dependent": 14,
+          "dependentGloss": "motor"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 15,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 16,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 18,
+          "dependentGloss": "turn"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "pages",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "turn",
+          "dependent": 21,
+          "dependentGloss": "pages"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 22,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "cc",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 23,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 16,
+          "governorGloss": "controls",
+          "dependent": 24,
+          "dependentGloss": "click"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "mouse",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 27,
+          "dependentGloss": "mouse"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "click",
+          "dependent": 28,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 29,
+          "dependentGloss": ";"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 30,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 32,
+          "governorGloss": "cortex",
+          "dependent": 31,
+          "dependentGloss": "prefrontal"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 32,
+          "dependentGloss": "cortex"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 33,
+          "dependentGloss": "maintains"
+        },
+        {
+          "dep": "dobj",
+          "governor": 33,
+          "governorGloss": "maintains",
+          "dependent": 34,
+          "dependentGloss": "attention"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "processing",
+          "dependent": 35,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 101,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "visual",
+          "originalText": "visual",
+          "lemma": "visual",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 108,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 118,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "processing",
+          "originalText": "processing",
+          "lemma": "process",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 129,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 134,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 137,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "seen",
+          "originalText": "seen",
+          "lemma": "see",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 149,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "page",
+          "originalText": "page",
+          "lemma": "page",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 154,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ";",
+          "originalText": ";",
+          "lemma": ";",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 155,
+          "pos": ":",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "motor",
+          "originalText": "motor",
+          "lemma": "motor",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 165,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 172,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "controls",
+          "originalText": "controls",
+          "lemma": "control",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 181,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 185,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "turn",
+          "originalText": "turn",
+          "lemma": "turn",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 190,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 193,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 197,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "pages",
+          "originalText": "pages",
+          "lemma": "page",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 203,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 205,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 207,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "click",
+          "originalText": "click",
+          "lemma": "click",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 213,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 216,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 220,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "mouse",
+          "originalText": "mouse",
+          "lemma": "mouse",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 226,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 28,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 227,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 29,
+          "word": ";",
+          "originalText": ";",
+          "lemma": ";",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 228,
+          "pos": ":",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 232,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "prefrontal",
+          "originalText": "prefrontal",
+          "lemma": "prefrontal",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 243,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "cortex",
+          "originalText": "cortex",
+          "lemma": "cortex",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 250,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "maintains",
+          "originalText": "maintains",
+          "lemma": "maintain",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 260,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "attention",
+          "originalText": "attention",
+          "lemma": "attention",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 270,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 35,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 270,
+          "characterOffsetEnd": 271,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (RB even) (JJ fundamental) (NNS functions))\n      (, ,)\n      (PP (IN like)\n        (NP\n          (NP (NN breathing)\n            (CC and)\n            (NN regulation))\n          (PP (IN of)\n            (NP (NN body) (NN temperature)))))\n      (, ,))\n    (VP (VBP are)\n      (VP (VBN controlled)\n        (PP (IN by)\n          (NP (DT the) (JJ nervous) (NN system)))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "controlled"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 2,
+          "dependentGloss": "fundamental"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 3,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 5,
+          "dependentGloss": "like"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 6,
+          "dependentGloss": "breathing"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 8,
+          "dependentGloss": "regulation"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 10,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 11,
+          "dependentGloss": "temperature"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "auxpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 13,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 17,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 18,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "controlled"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 2,
+          "dependentGloss": "fundamental"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 3,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 5,
+          "dependentGloss": "like"
+        },
+        {
+          "dep": "nmod:like",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 6,
+          "dependentGloss": "breathing"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:like",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 8,
+          "dependentGloss": "regulation"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 8,
+          "dependentGloss": "regulation"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 10,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 11,
+          "dependentGloss": "temperature"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "auxpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 13,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 17,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nmod:agent",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 18,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "controlled"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 1,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 2,
+          "dependentGloss": "fundamental"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 3,
+          "dependentGloss": "functions"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 5,
+          "dependentGloss": "like"
+        },
+        {
+          "dep": "nmod:like",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 6,
+          "dependentGloss": "breathing"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:like",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 8,
+          "dependentGloss": "regulation"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 8,
+          "dependentGloss": "regulation"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "temperature",
+          "dependent": 10,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "breathing",
+          "dependent": 11,
+          "dependentGloss": "temperature"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "functions",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "auxpass",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 13,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "system",
+          "dependent": 17,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nmod:agent",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 18,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "controlled",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "even",
+          "originalText": "even",
+          "lemma": "even",
+          "characterOffsetBegin": 272,
+          "characterOffsetEnd": 276,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "fundamental",
+          "originalText": "fundamental",
+          "lemma": "fundamental",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 288,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "functions",
+          "originalText": "functions",
+          "lemma": "function",
+          "characterOffsetBegin": 289,
+          "characterOffsetEnd": 298,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 298,
+          "characterOffsetEnd": 299,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "like",
+          "originalText": "like",
+          "lemma": "like",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 304,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "breathing",
+          "originalText": "breathing",
+          "lemma": "breathing",
+          "characterOffsetBegin": 305,
+          "characterOffsetEnd": 314,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 315,
+          "characterOffsetEnd": 318,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "regulation",
+          "originalText": "regulation",
+          "lemma": "regulation",
+          "characterOffsetBegin": 319,
+          "characterOffsetEnd": 329,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 332,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "body",
+          "originalText": "body",
+          "lemma": "body",
+          "characterOffsetBegin": 333,
+          "characterOffsetEnd": 337,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "temperature",
+          "originalText": "temperature",
+          "lemma": "temperature",
+          "characterOffsetBegin": 338,
+          "characterOffsetEnd": 349,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 349,
+          "characterOffsetEnd": 350,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 351,
+          "characterOffsetEnd": 354,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "controlled",
+          "originalText": "controlled",
+          "lemma": "control",
+          "characterOffsetBegin": 355,
+          "characterOffsetEnd": 365,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 366,
+          "characterOffsetEnd": 368,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 369,
+          "characterOffsetEnd": 372,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "nervous",
+          "originalText": "nervous",
+          "lemma": "nervous",
+          "characterOffsetBegin": 373,
+          "characterOffsetEnd": 380,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 381,
+          "characterOffsetEnd": 387,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 387,
+          "characterOffsetEnd": 388,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (DT a) (JJ nervous) (NN system))\n      (VP (VBZ is)\n        (NP\n          (NP (DT an) (NNS organisms))\n          (SBAR\n            (S\n              (VP (VBP control)\n                (NP (NN center))))))))\n    (: :)\n    (S\n      (NP (PRP it))\n      (VP\n        (VP (VBZ processes)\n          (NP (JJ sensory) (NN information))\n          (PP (IN from)\n            (NP\n              (NP\n                (NP (JJ outside))\n                (PRN (-LRB- -LRB-)\n                  (FRAG (CC and)\n                    (PP (IN inside)))\n                  (-RRB- -RRB-)))\n              (NP (DT the) (NN body)))))\n        (CC and)\n        (VP (VBZ controls)\n          (NP\n            (NP (DT all) (NN behaviorsfrom))\n            (VP (VBG eating)\n              (PP (TO to)\n                (S\n                  (VP (VBG sleeping)\n                    (PP (TO to)\n                      (S\n                        (VP (VBG finding)\n                          (NP (DT a) (NN mate)))))))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "organisms"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 7,
+          "dependentGloss": "control"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "control",
+          "dependent": 8,
+          "dependentGloss": "center"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 9,
+          "dependentGloss": ":"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 10,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 11,
+          "dependentGloss": "processes"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "information",
+          "dependent": 12,
+          "dependentGloss": "sensory"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 13,
+          "dependentGloss": "information"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 15,
+          "dependentGloss": "outside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 16,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 17,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 18,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 19,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "body",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 21,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 23,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 24,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "controls",
+          "dependent": 25,
+          "dependentGloss": "behaviorsfrom"
+        },
+        {
+          "dep": "acl",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 26,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "mark",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 27,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 26,
+          "governorGloss": "eating",
+          "dependent": 28,
+          "dependentGloss": "sleeping"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 30,
+          "dependentGloss": "finding"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "mate",
+          "dependent": 31,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 32,
+          "dependentGloss": "mate"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 33,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "organisms"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 7,
+          "dependentGloss": "control"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "control",
+          "dependent": 8,
+          "dependentGloss": "center"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 9,
+          "dependentGloss": ":"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 10,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 23,
+          "governorGloss": "controls",
+          "dependent": 10,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 11,
+          "dependentGloss": "processes"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "information",
+          "dependent": 12,
+          "dependentGloss": "sensory"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 13,
+          "dependentGloss": "information"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 15,
+          "dependentGloss": "outside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 16,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 17,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 18,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 19,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "body",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 21,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 23,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 23,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 24,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "controls",
+          "dependent": 25,
+          "dependentGloss": "behaviorsfrom"
+        },
+        {
+          "dep": "acl",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 26,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "mark",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 27,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 26,
+          "governorGloss": "eating",
+          "dependent": 28,
+          "dependentGloss": "sleeping"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 30,
+          "dependentGloss": "finding"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "mate",
+          "dependent": 31,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 32,
+          "dependentGloss": "mate"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 33,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "organisms"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "nervous"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 7,
+          "dependentGloss": "control"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "control",
+          "dependent": 8,
+          "dependentGloss": "center"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 9,
+          "dependentGloss": ":"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 10,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 23,
+          "governorGloss": "controls",
+          "dependent": 10,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 11,
+          "dependentGloss": "processes"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "information",
+          "dependent": 12,
+          "dependentGloss": "sensory"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 13,
+          "dependentGloss": "information"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 15,
+          "dependentGloss": "outside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 16,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 17,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 18,
+          "dependentGloss": "inside"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "and",
+          "dependent": 19,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "body",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 15,
+          "governorGloss": "outside",
+          "dependent": 21,
+          "dependentGloss": "body"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 23,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "processes",
+          "dependent": 23,
+          "dependentGloss": "controls"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 24,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "controls",
+          "dependent": 25,
+          "dependentGloss": "behaviorsfrom"
+        },
+        {
+          "dep": "acl",
+          "governor": 25,
+          "governorGloss": "behaviorsfrom",
+          "dependent": 26,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "mark",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 27,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 26,
+          "governorGloss": "eating",
+          "dependent": 28,
+          "dependentGloss": "sleeping"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 28,
+          "governorGloss": "sleeping",
+          "dependent": 30,
+          "dependentGloss": "finding"
+        },
+        {
+          "dep": "det",
+          "governor": 32,
+          "governorGloss": "mate",
+          "dependent": 31,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 30,
+          "governorGloss": "finding",
+          "dependent": 32,
+          "dependentGloss": "mate"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "organisms",
+          "dependent": 33,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 389,
+          "characterOffsetEnd": 390,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "nervous",
+          "originalText": "nervous",
+          "lemma": "nervous",
+          "characterOffsetBegin": 391,
+          "characterOffsetEnd": 398,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 399,
+          "characterOffsetEnd": 405,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 406,
+          "characterOffsetEnd": 408,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 409,
+          "characterOffsetEnd": 411,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "organisms",
+          "originalText": "organisms",
+          "lemma": "organism",
+          "characterOffsetBegin": 412,
+          "characterOffsetEnd": 421,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "control",
+          "originalText": "control",
+          "lemma": "control",
+          "characterOffsetBegin": 422,
+          "characterOffsetEnd": 429,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "center",
+          "originalText": "center",
+          "lemma": "center",
+          "characterOffsetBegin": 430,
+          "characterOffsetEnd": 436,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ":",
+          "originalText": ":",
+          "lemma": ":",
+          "characterOffsetBegin": 436,
+          "characterOffsetEnd": 437,
+          "pos": ":",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 438,
+          "characterOffsetEnd": 440,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "processes",
+          "originalText": "processes",
+          "lemma": "process",
+          "characterOffsetBegin": 441,
+          "characterOffsetEnd": 450,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "sensory",
+          "originalText": "sensory",
+          "lemma": "sensory",
+          "characterOffsetBegin": 451,
+          "characterOffsetEnd": 458,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "information",
+          "originalText": "information",
+          "lemma": "information",
+          "characterOffsetBegin": 459,
+          "characterOffsetEnd": 470,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 471,
+          "characterOffsetEnd": 475,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "outside",
+          "originalText": "outside",
+          "lemma": "outside",
+          "characterOffsetBegin": 476,
+          "characterOffsetEnd": 483,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 484,
+          "characterOffsetEnd": 485,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 485,
+          "characterOffsetEnd": 488,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "inside",
+          "originalText": "inside",
+          "lemma": "inside",
+          "characterOffsetBegin": 489,
+          "characterOffsetEnd": 495,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 495,
+          "characterOffsetEnd": 496,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 497,
+          "characterOffsetEnd": 500,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "body",
+          "originalText": "body",
+          "lemma": "body",
+          "characterOffsetBegin": 501,
+          "characterOffsetEnd": 505,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 506,
+          "characterOffsetEnd": 509,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "controls",
+          "originalText": "controls",
+          "lemma": "control",
+          "characterOffsetBegin": 510,
+          "characterOffsetEnd": 518,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 519,
+          "characterOffsetEnd": 522,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "behaviorsfrom",
+          "originalText": "behaviorsfrom",
+          "lemma": "behaviorsfrom",
+          "characterOffsetBegin": 523,
+          "characterOffsetEnd": 536,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "eating",
+          "originalText": "eating",
+          "lemma": "eat",
+          "characterOffsetBegin": 537,
+          "characterOffsetEnd": 543,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 544,
+          "characterOffsetEnd": 546,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "sleeping",
+          "originalText": "sleeping",
+          "lemma": "sleep",
+          "characterOffsetBegin": 547,
+          "characterOffsetEnd": 555,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 556,
+          "characterOffsetEnd": 558,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "finding",
+          "originalText": "finding",
+          "lemma": "find",
+          "characterOffsetBegin": 559,
+          "characterOffsetEnd": 566,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 567,
+          "characterOffsetEnd": 568,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "mate",
+          "originalText": "mate",
+          "lemma": "mate",
+          "characterOffsetBegin": 569,
+          "characterOffsetEnd": 573,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 33,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 573,
+          "characterOffsetEnd": 574,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "16": [
+      {
+        "id": 2,
+        "text": "your nervous system",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "headIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "the visual system",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "headIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "the motor system",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "headIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 16,
+        "text": "the nervous system",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "headIndex": 18,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "19": [
+      {
+        "id": 17,
+        "text": "a nervous system",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "headIndex": 3,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 19,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "headIndex": 10,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}
